@@ -23,9 +23,9 @@ This project is a fully automated AI-powered ETL (Extract, Transform, Load) pipe
 
 1. Clone the Repository
 
-  git clone https://github.com/molik-sareen/AI-ETL-LLM.git
-  
-  cd AI-ETL-LLM
+      git clone https://github.com/molik-sareen/AI-ETL-LLM.git
+      
+      cd AI-ETL-LLM
 
 2. Set Up a Virtual Environment
 
