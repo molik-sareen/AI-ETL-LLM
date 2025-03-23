@@ -23,37 +23,37 @@ This project is a fully automated AI-powered ETL (Extract, Transform, Load) pipe
 
 1. Clone the Repository
 
-    git clone https://github.com/molik-sareen/AI-ETL-LLM.git
+      git clone https://github.com/molik-sareen/AI-ETL-LLM.git
   
-    cd AI-ETL-LLM
+      cd AI-ETL-LLM
 
 2. Set Up a Virtual Environment
 
-    python -m venv venv
-
-    source venv/bin/activate   # For Mac/Linux
-
-    venv\Scripts\activate      # For Windows
+      python -m venv venv
+  
+      source venv/bin/activate   # For Mac/Linux
+  
+      venv\Scripts\activate      # For Windows
 
 3. Install Dependencies
 
-    pip install -r requirements.txt
+      pip install -r requirements.txt
 
 4. Configure Environment Variables
 
-    MYSQL_HOST=your_host
-    
-    MYSQL_USER=your_user
-    
-    MYSQL_PASS=your_password
-    
-    MYSQL_DB=your_db
-    
-    MONGO_URI=your_mongo_connection_string
-    
-    MONGO_DB=your_mongo_database
-    
-    OPENAI_API_KEY=your_openai_api_key
+      MYSQL_HOST=your_host
+      
+      MYSQL_USER=your_user
+      
+      MYSQL_PASS=your_password
+      
+      MYSQL_DB=your_db
+      
+      MONGO_URI=your_mongo_connection_string
+      
+      MONGO_DB=your_mongo_database
+      
+      OPENAI_API_KEY=your_openai_api_key
 
 # How to Run the Project?
 
