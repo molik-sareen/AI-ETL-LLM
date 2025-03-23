@@ -1,8 +1,0 @@
-pymysql
-pandas
-numpy
-pymongo
-dotenv
-fastapi
-streamlit
-openai
