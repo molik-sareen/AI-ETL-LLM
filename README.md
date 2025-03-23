@@ -19,69 +19,75 @@ This project is a fully automated AI-powered ETL (Extract, Transform, Load) pipe
 
 - Includes a Streamlit dashboard for easy visualization
 
----
-
 ## Installation & Setup  
 
-1 Clone the Repository
-git clone https://github.com/molik-sareen/AI-ETL-LLM.git
+1. Clone the Repository
 
-cd AI-ETL-LLM
+    git clone https://github.com/molik-sareen/AI-ETL-LLM.git
+  
+    cd AI-ETL-LLM
 
-2 Set Up a Virtual Environment
-python -m venv venv
+2. Set Up a Virtual Environment
 
-source venv/bin/activate   # For Mac/Linux
+    python -m venv venv
 
-venv\Scripts\activate      # For Windows
+    source venv/bin/activate   # For Mac/Linux
 
-3 Install Dependencies
-pip install -r requirements.txt
+    venv\Scripts\activate      # For Windows
 
-4 Configure Environment Variables
-MYSQL_HOST=your_host
+3. Install Dependencies
 
-MYSQL_USER=your_user
+    pip install -r requirements.txt
 
-MYSQL_PASS=your_password
+4. Configure Environment Variables
 
-MYSQL_DB=your_db
-
-MONGO_URI=your_mongo_connection_string
-
-MONGO_DB=your_mongo_database
-
-OPENAI_API_KEY=your_openai_api_key
+    MYSQL_HOST=your_host
+    
+    MYSQL_USER=your_user
+    
+    MYSQL_PASS=your_password
+    
+    MYSQL_DB=your_db
+    
+    MONGO_URI=your_mongo_connection_string
+    
+    MONGO_DB=your_mongo_database
+    
+    OPENAI_API_KEY=your_openai_api_key
 
 # How to Run the Project?
-Step 1: Extract, Transform & Load Data
-python src/extract.py
 
-python src/transform.py
+**Step 1:** Extract, Transform & Load Data
 
-python src/load.py
+      python src/extract.py
+      
+      python src/transform.py
+      
+      python src/load.py
 
-Step 2: Train the Machine Learning Model
-python src/ml_model.py
+**Step 2:** Train the Machine Learning Model
 
-Step 3: Chat with the AI Chatbot
-python src/chatbot.py
+      python src/ml_model.py
+
+**Step 3:** Chat with the AI Chatbot
+
+      python src/chatbot.py
 
 **Example Prompt:**
-**User:** What insights can I get from this dataset?
-
-**AI:** Based on the dataset, we can analyze trends and predict future values using machine learning.
+    **User:** What insights can I get from this dataset?
+    
+    **AI:** Based on the dataset, we can analyze trends and predict future values using machine learning.
 
 **Step 4:** Start the API for Model Predictions
 
-uvicorn src.api:app --reload
+      uvicorn src.api:app --reload
 
-**Open in browser:** http://127.0.0.1:8000/predict/5.0
+      **Open in browser:** http://127.0.0.1:8000/predict/5.0
 
 **Step 5:** View the Dashboard
-streamlit run src/dashboard.py
-
-**Open in browser:** http://localhost:8501
+      streamlit run src/dashboard.py
+      
+      **Open in browser:** http://localhost:8501
 
 ## Technologies Used:
 - Python
