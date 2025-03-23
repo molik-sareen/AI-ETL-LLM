@@ -74,6 +74,7 @@ This project is a fully automated AI-powered ETL (Extract, Transform, Load) pipe
       python src/chatbot.py
 
 **Example Prompt:**
+
     **User:** What insights can I get from this dataset?
     
     **AI:** Based on the dataset, we can analyze trends and predict future values using machine learning.
@@ -85,15 +86,17 @@ This project is a fully automated AI-powered ETL (Extract, Transform, Load) pipe
       **Open in browser:** http://127.0.0.1:8000/predict/5.0
 
 **Step 5:** View the Dashboard
+
       streamlit run src/dashboard.py
       
       **Open in browser:** http://localhost:8501
 
 ## Technologies Used:
-- Python
-- MySQL & MongoDB (Databases for structured & unstructured data)
-- Pandas & NumPy (Data Cleaning & Processing)
-- Scikit-learn (Machine Learning Model)
-- FastAPI (Backend API)
-- OpenAI GPT-3.5 Turbo (AI Chatbot)
-- Streamlit (Dashboard for visualization)
+
+  - Python
+  - MySQL & MongoDB (Databases for structured & unstructured data)
+  - Pandas & NumPy (Data Cleaning & Processing)
+  - Scikit-learn (Machine Learning Model)
+  - FastAPI (Backend API)
+  - OpenAI GPT-3.5 Turbo (AI Chatbot)
+  - Streamlit (Dashboard for visualization)
